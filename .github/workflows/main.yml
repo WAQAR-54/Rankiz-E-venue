@@ -34,7 +34,7 @@ jobs:
     - name: Install Surge 
       run: npm install -g surge 
     - name: Run Surge
-      run: surge ./build rankiz-evenue.surge.sh --token ${{secrets.react}}
+      run: surge ./build rankiz.surge.sh --token ${{secrets.react}}
 
     # Runs a single command using the runners shell
     #- name: Run a one-line script
